@@ -1,4 +1,4 @@
-const socket = io('http://localhost:5000', { transports: ["websocket"] });
+const socket = io('https://chat-app-p0ot.onrender.com/', { transports: ["websocket"] });
 
 // Get and emit login data
 
