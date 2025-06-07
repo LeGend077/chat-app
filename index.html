@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convo</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script defer src="http://localhost:5000/socket.io/socket.io.js"></script>
+    <script defer src="./scripts/client.js"></script>
+</head>
+
+<body>
+    <h1 id="main-heading" class="main-heading">Welcome</h1>
+
+    <div id="container" class="container">
+        <div id="content" class="content">
+            <center>
+                <h3>Group Chat</h3>
+            </center>
+            <hr>
+            <br>
+        </div>
+        <div class="message-content">
+            <textarea name="Text1" id="message" style="width: 100%;" rows="4"></textarea><br><br>
+            <button id="send">Send</button>
+        </div>
+    </div>
+</body>
+
+</html>
