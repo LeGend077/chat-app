@@ -3,7 +3,6 @@ const io = require('socket.io')(5000);
 const allowedUsers = [
     'admin'
 ];
-
 const users = {};
 
 io.on('connection', socket => {
